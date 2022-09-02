@@ -17,8 +17,8 @@ const myPortfolio = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Property Finder</h2>
-          <h3>React JS | Redux | Css | NodeJS | Express | Sequelize</h3>
+          <h2 className='py-2'>My Portfolio</h2>
+          <h3>Next JS | Javascrip | Tailwind </h3>
         </div>
       </div>
 
@@ -37,17 +37,13 @@ const myPortfolio = () => {
             properties. This is made possible with Zillow API.
           </p>
           <a
-            href='https://github.com/fireclint/property-finder'
+            href='https://github.com/AhrensOG/Portfolio'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
-          <a
-            href='https://property-finder-development.web.app/'
-            target='_blank'
-            rel='noreferrer'
-          >
+          <a href='/'>
             <button className='px-8 py-2 mt-4'>Demo</button>
           </a>
         </div>
@@ -56,22 +52,13 @@ const myPortfolio = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
+                <RiRadioButtonFill className='pr-1' /> Next JS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Google API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Zillow API
+                <RiRadioButtonFill className='pr-1' /> Tailwind
               </p>
             </div>
           </div>
