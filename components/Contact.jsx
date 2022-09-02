@@ -30,8 +30,8 @@ const Contact = () => {
                 <h2 className="py-2">Gabriel Ahrens</h2>
                 <p>Full-Stack Developer</p>
                 <p className="py-4">
-                  I'm available for freelance or full-time positions. Contact
-                  me and let's talk.
+                  I&apos;m available for freelance or full-time positions. Contact
+                  me and let&apos;s talk.
                 </p>
               </div>
               <div>
@@ -77,7 +77,7 @@ const Contact = () => {
               <form
                 action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
                 method="POST"
-                enctype="multipart/form-data"
+                encType="multipart/form-data"
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">

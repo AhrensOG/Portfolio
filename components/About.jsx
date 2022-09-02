@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import aboutImg from '../public/assets/about.jpg'
+import aboutImg from "../public/assets/about.jpg";
 
 const About = () => {
   return (
@@ -13,10 +13,10 @@ const About = () => {
           </p>
           <h2 className="py-2">Who I am</h2>
           <p className="py-2 text-gray-600">
-            / / I am not your average developer
+            / / I&apos;m not your average developer
           </p>
           <p className="py-2 text-gray-600">
-            I'm a young Systems Engineering student and web developer. I can
+            I&apos;m a young Systems Engineering student and web developer. I can
             stand out for loving my professional career. In 2020 I started this
             incredible journey of perseverance and discipline, which from the
             beginning has filled me with satisfaction and pride to see the
@@ -40,11 +40,7 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image
-            className="rounded-xl"
-            src={aboutImg}
-            alt="img"
-          />
+          <Image className="rounded-xl" src={aboutImg} alt="img" />
         </div>
       </div>
     </div>
