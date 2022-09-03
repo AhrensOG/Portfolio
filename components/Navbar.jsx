@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import logoImg from '../public/OGA-logo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -54,7 +55,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
           <Image
-            src="/../public/OGA-logo.png"
+            src={logoImg}
             width="125"
             height="40"
             alt="/"
