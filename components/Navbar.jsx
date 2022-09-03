@@ -105,7 +105,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <Image
-                  src="/../public/OGA-logo.png"
+                  src={logoImg}
                   width="80"
                   height="28"
                   alt="/"
