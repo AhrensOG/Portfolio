@@ -38,7 +38,7 @@ const Contact = () => {
                 <p className="uppercase pt-8 lg:pt-10">Connect With Me</p>
                 <div className="flex items-center justify-between py-4 lg:py-10">
                   <a
-                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                    href="https://www.linkedin.com/in/ahrensog-fullstack/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -47,7 +47,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href="https://github.com/fireclint"
+                    href="https://github.com/AhrensOG"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -74,10 +74,14 @@ const Contact = () => {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
-              <form
-                action="https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060"
+              <form 
+                onSubmit={() => setTimeout(() => { document.getElementById('form').reset() },3000)}
+                id="form"
+                action="https://getform.io/f/dedfb4a6-868a-4ed0-b7bd-31dff65ff4ca"
                 method="POST"
                 encType="multipart/form-data"
+                target="_blank"
+                rel="noreferrer"
               >
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
@@ -94,7 +98,7 @@ const Contact = () => {
                     </label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
-                      type="text"
+                      type="number"
                       name="phone"
                     />
                   </div>
