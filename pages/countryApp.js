@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, {useEffect, useState} from "react";
+import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import countryAppImg from "../public/assets/projects/countryApp-image.png";
@@ -37,20 +37,20 @@ const countryApp = () => {
             possibility to manipulate tourist activities (create, update and
             delete).
           </p>
-          <a
+          <Link
             href="https://github.com/AhrensOG/CountryApp"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a
-            href="https://property-finder-development.web.app/"
+          </Link>
+          <Link
+            href="https://country-app-theta.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4">Demo</button>
-          </a>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
