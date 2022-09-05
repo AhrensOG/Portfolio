@@ -31,7 +31,7 @@ const countryApp = () => {
             Sequelize and is hosted on heroku/vercel. Users are able to search
             for countries and filter them based on continent, population or
             tourist activity. They will be able to view country information with
-            related activities, as well as have the ability to create new
+            related activities, as well, the users has the ability to create new
             tourist activities. This is possible thanks to the COUNTRIES API and
             a database developed with Sequelize. The application provides the
             possibility to manipulate tourist activities (create, update and

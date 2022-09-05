@@ -31,7 +31,7 @@ const myPortfolio = () => {
             Vercel. Users will be able to read more about me. They will know my
             projects, my skills and they will be able to see a demo or the code
             in github. They can contact me through a form in the application or
-            through my social networks!
+            my social networks!
           </p>
           <Link
             href="https://github.com/AhrensOG/Portfolio"

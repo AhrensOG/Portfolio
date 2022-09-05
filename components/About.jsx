@@ -23,13 +23,13 @@ const About = () => {
             evolution of my professional profile!
           </p>
           <p className="py-2 text-gray-600">
-            I enthusiastically wish to join projects of various types, whether
+            I enthusiastically wish to join on projects of various types, whether
             short, medium or long term, to reinforce my knowledge and acquire
             even more!
           </p>
           <p className="py-2 text-gray-600">
             I consider myself a person with good communication skills,
-            empathetic, with emotional intelligence, self-taught, perseverant
+            empathetic, with emotional intelligence, autodidact, perseverant
             and capable of solving problems. Always predisposed to collaborate,
             willing to learn and keep improving as a professional.
           </p>

@@ -32,10 +32,10 @@ const henryTravel = () => {
             able to search/filter tour packages based on a destination or date,
             to retrieve a list of currently available packages. They will be
             able to view the package information with the activities included,
-            as well as the ability to add new activities. User authentication is
+            as well, the possibility of add new activities. User authentication is
             available thanks to Auth0 so that you can register and login to your
-            account with an email address or Google account in order to save
-            your favorite tour packages and your shopping cart. This is possible
+            account with an email address or Google account with an intention to save
+            they favorite tour packages and your shopping cart. This is possible
             thanks to the API developed with NodeJS and a database developed
             with Sequelize. The application also has two payment gateways
             developed with Stripe and MercadoPago, as well as a Dashboard for
