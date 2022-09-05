@@ -41,22 +41,22 @@ const henryTravel = () => {
             developed with Stripe and MercadoPago, as well as a Dashboard for
             administrative use that gives the possibility to manipulate tour
             packages and touristic activities (Create, update and a logical
-            deletion). Translated with www.DeepL.com/Translator (free version)
+            deletion).
           </p>
-          <a
+          <Link
             href="https://github.com/bamioezequiel/proyecto-final-henry"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://proyecto-final-henry.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4">Demo</button>
-          </a>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
           <div className="p-2">
