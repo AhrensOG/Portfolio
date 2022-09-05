@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { TbFileDownload } from "react-icons/tb";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactImg from "../public/assets/contact.jpg";
@@ -59,13 +59,13 @@ const Contact = () => {
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <AiOutlineMail color="#5651e5"/>
                   </div>
-                  <Link href="/resume">
+                  <a href="CV-OGA-C.pdf" download='CV-Gabriel-Ahrens.pdf'>
                     <a>
                       <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                        <BsFillPersonLinesFill color="#5651e5"/>
+                        <TbFileDownload color="#5651e5"/>
                       </div>
                     </a>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

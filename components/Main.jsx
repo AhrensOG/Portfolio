@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { TbFileDownload } from "react-icons/tb";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
@@ -46,11 +46,11 @@ const Main = () => {
                 <AiOutlineMail color="#5651e5" />
               </div>
             </Link>
-            <Link href="/resume">
+            <a href="CV-OGA-C.pdf" download='CV-Gabriel-Ahrens.pdf'>
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                <BsFillPersonLinesFill color="#5651e5" />
+                <TbFileDownload color="#5651e5" />
               </div>
-            </Link>
+            </a>
           </div>
         </div>
       </div>

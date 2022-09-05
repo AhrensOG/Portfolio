@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { TbFileDownload } from "react-icons/tb";
 import logoImg from '../public/OGA-logo.png'
 
 const Navbar = () => {
@@ -183,14 +183,14 @@ const Navbar = () => {
                     <AiOutlineMail color="#5651e5"/>
                   </div>
                 </Link>
-                <Link href="/resume">
+                <a href="CV-OGA-C.pdf" download='CV-Gabriel-Ahrens.pdf'>
                   <div
                     onClick={() => setNav(!nav)}
                     className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                   >
-                    <BsFillPersonLinesFill color="#5651e5"/>
+                    <TbFileDownload color="#5651e5"/>
                   </div>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
