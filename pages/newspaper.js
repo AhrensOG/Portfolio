@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import propertyImage from "../public/assets/projects/henryTravel-image.png";
+import propertyImage from "../public/assets/projects/NewspaperImage.png";
 
 const henryTravel = () => {
   return (
@@ -17,8 +17,8 @@ const henryTravel = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Henry Travel</h2>
-          <h3>ReactJS | Css | NodeJS | Sequelize</h3>
+          <h2 className="py-2">Newspaper</h2>
+          <h3>NextJS | Tailwind | NodeJS | Sequelize | Firebase</h3>
         </div>
       </div>
 
@@ -27,31 +27,19 @@ const henryTravel = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This application was built using React JS, Redux,
-            NodeJS, Express, Sequelize and is hosted on heroku/vercel. Users are
-            able to search/filter tour packages based on a destination or date,
-            to retrieve a list of currently available packages. They will be
-            able to view the package information with the activities included,
-            as well, the possibility of add new activities. User authentication is
-            available thanks to Auth0 so that you can register and login to your
-            account with an email address or Google account with an intention to save
-            they favorite tour packages and your shopping cart. This is possible
-            thanks to the API developed with NodeJS and a database developed
-            with Sequelize. The application also has two payment gateways
-            developed with Stripe and MercadoPago, as well as a Dashboard for
-            administrative use that gives the possibility to manipulate tour
-            packages and touristic activities (Create, update and a logical
-            deletion).
+            This application was built using NextJS, NodeJS, Express, Sequelize and is hosted on a VPS (Virtual Private Server). 
+            Users will be able to search/filter news based on categories or titles, to retrieve a list of the most recent news. They will also be able to view detailed news and related information.
+            The application also features a Dashboard for administrative use that gives the possibility to manipulate news (creation, update and logical deletion). This is possible thanks to the API developed with NodeJS, Express and a database developed with Sequelize.
           </p>
           <Link
-            href="https://github.com/bamioezequiel/proyecto-final-henry"
+            href="https://github.com/AhrensOG/NewspaperProject-Server"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </Link>
           <Link
-            href="https://proyecto-final-henry.vercel.app/"
+            href="https://newspaper-project.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -66,13 +54,10 @@ const henryTravel = () => {
                 <RiRadioButtonFill className="pr-1" /> JavaScript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> ReactJS
+                <RiRadioButtonFill className="pr-1" /> NextJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Redux
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Css
+                <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> NodeJS
@@ -84,16 +69,10 @@ const henryTravel = () => {
                 <RiRadioButtonFill className="pr-1" /> Sequelize
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Stripe
+                <RiRadioButtonFill className="pr-1" /> Firebase
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> MercadoPago
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Auth0
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> NodeMailer
+                <RiRadioButtonFill className="pr-1" /> JWT
               </p>
             </div>
           </div>

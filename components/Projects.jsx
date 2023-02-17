@@ -2,6 +2,7 @@ import React from "react";
 import portfolioImg from "../public/assets/projects/portfolio-image.png";
 import countryImg from '../public/assets/projects/countryApp-image.png'
 import henryImg from "../public/assets/projects/henryTravel-image.png";
+import newspaper from "../public/assets/projects/NewspaperImage.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -16,6 +17,7 @@ const Projects = () => {
           <ProjectItem title={"HenryTravel"} image={henryImg} typeProject={"E-Commerce Project with ReactJS, NodeJS and Sequelize"} url={'/henryTravel'} />
           <ProjectItem title={"CountryApp"} image={countryImg} typeProject={"ReactJS Project"} url={'/countryApp'} />
           <ProjectItem title={"My Portfolio :)"} image={portfolioImg} typeProject={"NextJS Project"} url={'/myPortfolio'} />
+          <ProjectItem title={"Newspaper"} image={newspaper} typeProject={"NextJS Project with NodeJS and Firebase"} url={'/newspaper'} />
         </div>
       </div>
     </div>

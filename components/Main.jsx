@@ -46,7 +46,7 @@ const Main = () => {
                 <AiOutlineMail color="#5651e5" />
               </div>
             </Link>
-            <a href="CV-OGA-C.pdf" download='CV-Gabriel-Ahrens.pdf'>
+            <a href="CV-OGA-C3.pdf" download='CV-Gabriel-Ahrens.pdf'>
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <TbFileDownload color="#5651e5" />
               </div>
