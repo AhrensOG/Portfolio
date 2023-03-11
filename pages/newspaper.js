@@ -4,7 +4,7 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import propertyImage from "../public/assets/projects/NewspaperImage.png";
 
-const henryTravel = () => {
+const newspaper = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -39,7 +39,7 @@ const henryTravel = () => {
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </Link>
           <Link
-            href="https://newspaper-project.vercel.app/"
+            href="https://opinionformosenia.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -85,4 +85,4 @@ const henryTravel = () => {
   );
 };
 
-export default henryTravel;
+export default newspaper;
